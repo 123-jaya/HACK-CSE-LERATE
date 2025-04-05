@@ -1,0 +1,155 @@
+import requests
+import pandas as pd
+import numpy as np
+import time
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import warnings
+warnings.filterwarnings("ignore")
+
+# Step 1: Simulate IR sensor and soil moisture readings
+def read_ir_sensor():
+    return np.random.choice([0, 1], p=[0.7, 0.3])  # 0 = healthy, 1 = unhealthy
+
+def read_soil_moisture():
+    return np.random.uniform(10, 60)  # in %
+
+# Step 2: Generate simulated training data
+def generate_training_data(n=300):
+    data = []
+    for _ in range(n):
+        temperature = np.random.uniform(20, 45)
+        feels_like = temperature + np.random.uniform(-1, 2)
+        humidity = np.random.uniform(30, 90)
+        wind_speed = np.random.uniform(0, 25)
+        precip_mm = np.random.uniform(0, 10)
+        pressure = np.random.uniform(980, 1020)
+        uv = np.random.uniform(1, 10)
+        cloud = np.random.uniform(0, 100)
+        visibility = np.random.uniform(2, 10)
+        dew_point = np.random.uniform(5, 25)
+        soil_moisture = read_soil_moisture()
+        ir_value = read_ir_sensor()
+        label = 1 if (soil_moisture < 30 or ir_value == 1) else 0
+
+        data.append([
+            temperature, feels_like, humidity, wind_speed, precip_mm,
+            pressure, uv, cloud, visibility, dew_point,
+            soil_moisture, ir_value, label
+        ])
+
+    columns = [
+        "Temperature", "FeelsLike", "Humidity", "WindSpeed", "PrecipMM",
+        "Pressure", "UV", "Cloud", "Visibility", "DewPoint",
+        "SoilMoisture", "IR_Sensor", "Irrigation_Needed"
+    ]
+    return pd.DataFrame(data, columns=columns)
+
+# Step 3: Train the ML model
+df = generate_training_data()
+X = df.drop("Irrigation_Needed", axis=1)
+y = df["Irrigation_Needed"]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+acc = accuracy_score(y_test, model.predict(X_test)) * 100
+print(f"Model trained with accuracy: {acc:.2f}%")
+
+# Step 4: Load list of cities
+cities = ["Mumbai", "Delhi", "Bangalore", "Hyderabad", "Ahmedabad", "Chennai"]  # Trimmed for demo
+
+# Step 5: Weather API function
+def fetch_weather(city):
+    api_key = "81e5c725a47b449d8c0190927252903"
+    url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}"
+    res = requests.get(url)
+    if res.status_code == 200:
+        current = res.json()["current"]
+        return {
+            "Temperature": current.get("temp_c", 0),
+            "FeelsLike": current.get("feelslike_c", 0),
+            "Humidity": current.get("humidity", 0),
+            "WindSpeed": current.get("wind_kph", 0),
+            "PrecipMM": current.get("precip_mm", 0),
+            "Pressure": current.get("pressure_mb", 0),
+            "UV": current.get("uv", 0),
+            "Cloud": current.get("cloud", 0),
+            "Visibility": current.get("vis_km", 0),
+            "DewPoint": 0  # fallback, not available in API
+        }
+    else:
+        print(f"Failed to fetch weather for {city}")
+        return None
+
+# Step 6: Predict for each city with comments and advice
+results = []
+
+def generate_comment_and_advice(soil, ir_val, prediction):
+    try:
+        if prediction == 1:
+            if ir_val == 1 and soil < 30:
+                return ("Crop is unhealthy and soil is dry.",
+                        "Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.")
+            elif ir_val == 1:
+                return ("Crop is unhealthy but soil is moist.",
+                        "Check for nutrient deficiencies or infections. Monitor regularly before irrigating.")
+            elif soil < 30:
+                return ("Soil moisture is low, crop health is okay.",
+                        "Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.")
+        else:
+            if ir_val == 1:
+                return ("Unexpected result: crop seems unhealthy, but irrigation not needed.",
+                        "Monitor crop health closely. Check for sensor accuracy. Delay irrigation, observe changes.")
+            elif soil < 30:
+                return ("Unexpected result: soil is dry, but irrigation not needed.",
+                        "Review soil moisture sensor or prediction logic. Irrigation might still be beneficial.")
+            else:
+                return ("Crop and soil are in good condition.",
+                        "No action needed. Keep monitoring regularly.")
+    except Exception as e:
+        return ("Unable to generate comment.", "Check input data and sensor values.")
+
+for city in cities:
+    weather = fetch_weather(city)
+    if weather:
+        ir_val = read_ir_sensor()
+        soil = read_soil_moisture()
+
+        features = [
+            weather["Temperature"],
+            weather["FeelsLike"],
+            weather["Humidity"],
+            weather["WindSpeed"],
+            weather["PrecipMM"],
+            weather["Pressure"],
+            weather["UV"],
+            weather["Cloud"],
+            weather["Visibility"],
+            weather["DewPoint"],
+            soil,
+            ir_val
+        ]
+
+        prediction = model.predict([features])[0]
+        status = "Irrigation Needed" if prediction == 1 else "No Irrigation Needed"
+        comment, advice = generate_comment_and_advice(soil, ir_val, prediction)
+
+        results.append({
+            "City": city,
+            **weather,
+            "SoilMoisture": round(soil, 2),
+            "IR_Sensor": ir_val,
+            "Prediction": status,
+            "Comment": comment,
+            "Farmer_Advice": advice
+        })
+
+# Step 7: Save to CSV with comment and advice
+df_results = pd.DataFrame(results)
+df_results.to_csv("E:/sit(research gate)/multi_city_irrigation_predictions.csv", index=False)
+
+print("\nResults saved to multi_city_irrigation_predictions.csv")
+print(df_results[["City", "Prediction", "Comment", "Farmer_Advice"]])
