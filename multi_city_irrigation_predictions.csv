@@ -1,0 +1,118 @@
+City,Temperature,FeelsLike,Humidity,WindSpeed,PrecipMM,Pressure,UV,Cloud,Visibility,DewPoint,SoilMoisture,IR_Sensor,Prediction,Comment,Farmer_Advice
+Mumbai,28.2,29.5,58,12.6,0.0,1012.0,3.8,0,2.5,0,13.4,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Delhi,7.6,3.9,55,24.8,0.0,1024.0,0.0,0,10.0,0,11.95,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Bangalore,26.1,26.9,70,8.3,0.0,1017.0,4.7,25,6.0,0,26.31,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Hyderabad,28.3,27.9,62,9.7,0.0,1016.0,4.8,0,4.0,0,27.0,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Ahmedabad,29.0,27.2,37,10.1,0.0,1011.0,3.8,0,1.0,0,58.07,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Chennai,30.3,34.2,79,3.6,0.0,1011.0,6.8,50,5.0,0,26.79,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Kolkata,31.2,31.3,66,14.0,0.0,1010.0,5.3,0,2.8,0,35.09,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Pune,31.9,29.7,19,12.2,0.0,1014.0,4.2,5,10.0,0,43.58,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Jaipur,29.4,27.2,25,3.6,0.0,1013.0,4.1,0,3.0,0,47.99,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Lucknow,29.4,27.2,31,13.3,0.0,1010.0,4.7,0,4.0,0,29.57,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Kanpur,34.6,32.7,8,11.2,0.0,1010.0,4.6,0,10.0,0,39.41,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Nagpur,29.1,27.2,43,9.0,0.0,1014.0,4.5,0,5.0,0,41.25,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Indore,27.1,25.3,34,11.2,0.0,1016.0,4.5,0,5.0,0,48.27,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Thane,31.9,29.7,13,15.8,0.0,1010.0,4.1,0,10.0,0,37.77,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Bhopal,28.2,26.2,14,13.3,0.0,1014.0,4.7,0,6.0,0,28.73,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Visakhapatnam,32.2,36.6,56,8.6,0.0,1012.0,5.9,26,10.0,0,39.62,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Pimpri-Chinchwad,32.5,30.3,17,14.0,0.0,1014.0,4.2,6,10.0,0,11.67,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Patna,35.2,33.4,9,10.8,0.0,1010.0,5.2,0,10.0,0,40.1,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Vadodara,32.9,30.7,17,5.8,0.0,1013.0,4.0,0,10.0,0,42.4,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Ghaziabad,25.2,23.9,39,13.0,0.0,1012.0,4.2,0,3.0,0,14.87,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Ludhiana,30.2,27.9,15,9.7,0.0,1010.0,3.9,0,10.0,0,58.77,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Agra,33.0,30.8,10,8.3,0.0,1011.0,4.2,0,10.0,0,38.66,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Faridabad,25.2,23.9,39,13.0,0.0,1012.0,4.2,0,3.0,0,10.67,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Meerut,32.1,29.9,12,15.1,0.0,1010.0,4.3,0,10.0,0,44.27,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Rajkot,31.3,29.8,26,13.3,0.0,1014.0,3.6,0,10.0,0,19.45,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Kalyan-Dombivli,32.3,33.3,40,14.4,0.0,1010.0,2.8,5,10.0,0,47.27,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Vasai-Virar,18.0,18.0,96,3.6,0.01,1012.0,0.0,77,10.0,0,46.79,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Varanasi,36.0,34.4,11,13.3,0.0,1010.0,5.0,0,10.0,0,16.5,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Srinagar,13.4,13.9,34,4.0,0.0,1021.0,4.3,2,10.0,0,29.62,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Aurangabad,26.4,24.8,58,15.8,0.0,1015.0,4.4,0,4.0,0,56.39,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Dhanbad,35.5,33.8,13,10.1,0.0,1010.0,5.6,0,10.0,0,42.6,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Amritsar,22.0,22.1,53,7.9,0.0,1011.0,3.7,0,5.0,0,56.9,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Navi Mumbai,28.2,29.5,58,12.6,0.0,1012.0,3.8,0,2.5,0,30.44,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Allahabad,35.1,33.3,12,9.7,0.0,1010.0,4.9,0,10.0,0,55.08,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Howrah,31.2,31.3,66,14.0,0.0,1010.0,5.3,0,2.8,0,10.63,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Gwalior,32.7,30.5,9,9.7,0.0,1011.0,4.5,0,10.0,0,23.69,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Ranchi,32.9,30.7,13,10.1,0.0,1012.0,5.8,0,10.0,0,14.66,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Jabalpur,24.4,23.4,57,14.0,0.0,1013.0,5.1,0,6.0,0,13.0,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Coimbatore,24.0,25.5,89,7.2,0.0,1014.0,5.8,50,6.0,0,44.9,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Vijayawada,30.3,31.5,75,5.8,0.0,1012.0,5.6,50,6.0,0,55.75,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Jodhpur,32.2,30.0,9,6.1,0.0,1012.0,3.7,3,10.0,0,23.96,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Madurai,29.2,32.7,84,3.6,0.0,1012.0,5.7,25,7.0,0,31.77,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Raipur,34.6,32.7,19,9.0,0.0,1012.0,5.2,0,10.0,0,44.84,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Kota,30.3,39.8,70,5.0,1.56,1012.0,8.0,25,10.0,0,54.13,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Guwahati,33.6,31.6,10,5.4,0.0,1011.0,5.1,0,10.0,0,24.63,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Chandigarh,31.5,29.3,12,16.2,0.0,1010.0,4.1,0,10.0,0,13.43,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Solapur,32.5,32.8,35,11.5,0.0,1013.0,3.9,14,10.0,0,32.55,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Hubballi-Dharwad,30.3,30.8,43,14.8,0.0,1013.0,4.6,6,10.0,0,25.19,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Tiruchirappalli,31.3,33.8,79,3.6,0.0,1012.0,6.6,50,5.0,0,30.78,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Bareilly,32.9,30.7,10,17.3,0.0,1009.0,4.4,0,10.0,0,16.91,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Mysore,27.8,28.9,54,9.4,0.0,1013.0,5.9,19,10.0,0,13.98,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Tiruppur,24.0,25.4,89,6.8,0.0,1014.0,6.1,50,6.0,0,36.63,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Gurgaon,25.2,23.9,39,12.2,0.0,1012.0,4.1,0,3.0,0,10.66,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Aligarh,32.6,30.5,11,12.2,0.0,1010.0,4.2,0,10.0,0,25.75,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Jalandhar,29.9,27.7,15,7.9,0.0,1010.0,3.7,0,10.0,0,58.12,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Bhubaneswar,34.7,36.2,35,9.7,0.0,1011.0,5.5,6,10.0,0,25.55,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Salem,30.3,32.7,54,3.6,0.0,1013.0,6.5,16,10.0,0,12.48,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Warangal,33.0,33.8,37,7.9,0.0,1012.0,4.9,3,10.0,0,25.39,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Guntur,30.3,31.9,75,5.8,0.0,1012.0,5.5,50,6.0,0,44.11,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Bhiwandi,28.2,26.5,58,7.9,0.0,1012.0,3.9,0,2.5,0,42.27,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Saharanpur,31.0,28.8,11,7.6,0.0,1009.0,4.1,0,10.0,0,51.94,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Gorakhpur,34.4,32.4,8,13.0,0.0,1009.0,4.9,0,10.0,0,52.35,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Bikaner,31.2,29.0,11,4.0,0.0,1012.0,3.6,0,10.0,0,54.6,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Amravati,34.1,32.2,21,10.4,0.0,1012.0,4.5,0,10.0,0,43.81,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Noida,25.2,23.9,39,12.2,0.0,1012.0,4.2,0,3.0,0,52.42,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Jamshedpur,34.3,32.8,23,9.0,0.0,1011.0,5.5,0,10.0,0,58.24,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Bhilai,34.6,32.7,19,9.7,0.0,1012.0,5.2,0,10.0,0,17.51,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Cuttack,35.1,36.1,32,9.0,0.0,1011.0,5.4,7,10.0,0,42.64,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Firozabad,33.7,31.6,10,10.4,0.0,1010.0,4.3,0,10.0,0,33.8,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Kochi,27.4,30.0,89,3.6,0.02,1010.0,5.8,50,3.5,0,47.0,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Nellore,31.7,34.4,51,10.4,0.0,1012.0,5.9,8,10.0,0,52.02,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Bhavnagar,29.0,27.9,40,15.5,0.0,1012.0,3.8,0,5.0,0,10.35,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Dehradun,29.9,27.7,12,3.6,0.0,1010.0,4.4,0,10.0,0,40.93,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Durgapur,35.6,34.4,22,9.0,0.0,1010.0,5.4,3,10.0,0,48.56,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Asansol,35.9,34.3,17,10.1,0.0,1010.0,5.6,0,10.0,0,20.72,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Rourkela,34.5,33.8,26,5.8,0.0,1011.0,5.5,0,10.0,0,25.17,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Nanded,33.5,33.0,29,6.1,0.0,1013.0,4.4,4,10.0,0,48.89,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Kolhapur,31.7,31.7,36,11.5,0.0,1013.0,4.3,5,10.0,0,51.29,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Ajmer,30.6,28.4,11,4.0,0.0,1013.0,4.0,0,10.0,0,56.71,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Akola,33.7,31.6,15,9.4,0.0,1013.0,4.5,0,10.0,0,14.0,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Gulbarga,31.9,32.1,36,9.4,0.0,1013.0,4.4,4,10.0,0,41.83,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Jamnagar,30.2,29.8,35,11.9,0.0,1013.0,3.4,0,10.0,0,20.29,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Ujjain,27.1,25.3,34,10.8,0.0,1016.0,4.5,0,5.0,0,11.67,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Loni,25.2,23.9,39,11.5,0.0,1012.0,4.2,0,3.0,0,36.72,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Siliguri,25.2,23.9,12,3.6,0.0,1012.0,5.0,0,10.0,0,16.04,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Jhansi,33.0,30.9,9,9.7,0.0,1011.0,4.6,0,10.0,0,37.63,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Ulhasnagar,28.2,26.6,58,7.9,0.0,1012.0,3.9,0,2.5,0,46.12,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Jammu,28.8,26.7,16,7.9,0.0,1010.0,3.6,0,10.0,0,50.01,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Sangli-Miraj & Kupwad,31.6,32.0,38,13.7,0.0,1013.0,4.3,9,10.0,0,24.41,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Mangalore,26.2,28.1,79,5.8,0.0,1012.0,4.5,75,6.0,0,21.48,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Erode,30.4,32.3,51,5.0,0.0,1013.0,5.9,17,10.0,0,54.97,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Belgaum,29.1,29.7,46,14.4,0.0,1014.0,4.5,7,10.0,0,44.65,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Ambattur,30.3,32.9,79,3.6,0.0,1011.0,6.7,50,5.0,0,14.3,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Tirunelveli,29.5,32.5,62,6.5,0.0,1013.0,6.2,41,10.0,0,21.75,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Malegaon,33.9,31.9,13,16.6,0.0,1013.0,4.3,0,10.0,0,17.08,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Gaya,36.8,35.4,11,16.6,0.0,1010.0,5.3,1,10.0,0,39.0,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Udaipur,31.4,29.1,11,7.2,0.0,1012.0,4.0,0,10.0,0,15.63,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Kakinada,34.0,38.0,46,5.0,0.0,1012.0,5.8,24,10.0,0,20.08,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Kozhikode,25.2,26.9,89,4.7,0.0,1012.0,5.4,50,6.0,0,39.76,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Rajpur Sonarpur,31.4,32.7,45,13.0,0.0,1011.0,2.7,27,10.0,0,31.22,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Bokaro,35.4,33.7,12,7.9,0.0,1010.0,5.6,2,10.0,0,20.42,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+South Dumdum,11.6,11.3,85,6.1,0.0,1016.0,0.0,4,10.0,0,56.74,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Bellary,31.2,32.1,43,10.8,0.0,1013.0,5.1,9,10.0,0,58.96,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Patiala,30.9,28.6,14,14.8,0.0,1010.0,4.0,0,10.0,0,10.1,1,Irrigation Needed,Crop is unhealthy and soil is dry.,Inspect for pests or diseases. Start irrigation immediately. Consider applying balanced fertilizers.
+Gopalpur,33.6,36.4,44,3.6,0.0,1011.0,4.6,10,10.0,0,43.03,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Agartala,32.5,33.9,42,12.2,0.0,1011.0,4.3,16,10.0,0,14.16,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Bhagalpur,35.8,34.2,11,12.2,0.0,1009.0,5.4,0,10.0,0,49.98,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Muzaffarnagar,32.1,29.8,12,15.8,0.0,1009.0,4.2,0,10.0,0,48.61,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Bhatpara,31.2,30.7,66,14.4,0.0,1010.0,5.2,0,2.8,0,56.24,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Panihati,31.2,31.0,66,14.4,0.0,1010.0,5.2,0,2.8,0,28.05,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Latur,31.2,30.6,32,5.8,0.0,1013.0,4.1,6,10.0,0,41.35,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Dhule,34.4,32.4,14,18.7,0.0,1013.0,4.2,0,10.0,0,22.05,0,Irrigation Needed,"Soil moisture is low, crop health is okay.",Irrigate soon to maintain optimal growth. Mulch to retain soil moisture.
+Rohtak,31.6,29.4,13,12.6,0.0,1011.0,4.2,0,10.0,0,49.67,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Korba,34.8,33.0,16,7.9,0.0,1012.0,5.4,0,10.0,0,51.32,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
+Bhilwara,31.9,29.7,10,5.8,0.0,1013.0,4.1,0,10.0,0,38.91,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Berhampur,33.6,36.4,44,3.6,0.0,1011.0,4.6,10,10.0,0,57.36,0,No Irrigation Needed,Crop and soil are in good condition.,No action needed. Keep monitoring regularly.
+Muzaffarpur,34.6,32.7,9,11.9,0.0,1010.0,5.0,0,10.0,0,41.94,1,Irrigation Needed,Crop is unhealthy but soil is moist.,Check for nutrient deficiencies or infections. Monitor regularly before irrigating.
